@@ -52,8 +52,9 @@ docker exec -it mongo1 mongosh --eval 'rs.printReplicationInfo()'
 
 ![image](https://github.com/user-attachments/assets/d3e2ad23-13fa-4d13-8af9-c3185825f90d)
 
+![image](https://github.com/user-attachments/assets/b0623b95-46f9-4e7f-9bdf-d17d684a0ed7)
 
- 
+10.  
 
 
 
