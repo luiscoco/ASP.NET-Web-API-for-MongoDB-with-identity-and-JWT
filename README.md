@@ -56,7 +56,8 @@ docker exec -it mongo1 mongosh --eval 'rs.printReplicationInfo()'
 
 ![image](https://github.com/user-attachments/assets/402304f8-9732-4fc7-ae2f-47fbcf62b063)
 
-10.  
+10. See the final Mongo instance running
 
+![image](https://github.com/user-attachments/assets/15f25d8b-1966-4f79-924b-7ccdb8911304)
 
 
