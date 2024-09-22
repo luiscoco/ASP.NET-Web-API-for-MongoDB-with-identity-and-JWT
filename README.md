@@ -1,10 +1,16 @@
 # ASP.NET-Web-API-for-MongoDB-with-identity-and-JWT
 
-1. Run Docker Desktop.
+1. Run Docker Desktop
 
-2. Create a new network: docker network create mongoCluster
+![image](https://github.com/user-attachments/assets/c8e119df-b388-49f7-a06b-9aad7c74aaa3)
 
-3. Create new MongoDb replica: 
+2. Create a new network
+
+```
+docker network create mongoCluster
+```
+
+5. Create new MongoDb replica: 
 
 ```
 docker run -d --rm -p 27017:27017 --name mongo1 --network mongoCluster mongo:latest mongod --replSet myReplicaSet --bind_ip localhost,mongo1
