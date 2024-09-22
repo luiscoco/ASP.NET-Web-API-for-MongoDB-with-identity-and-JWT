@@ -33,3 +33,18 @@ docker exec -it mongo1 mongosh --eval 'rs.status()'
 ```
 docker exec -it mongo1 mongosh --eval 'rs.printReplicationInfo()'
 ```
+
+6. Run Studio 3T for MongoDB
+
+![image](https://github.com/user-attachments/assets/dfa76885-8c17-41e5-8d08-1df6960f7660)
+
+7. Create the connection string in Studio 3T for MongoDB
+
+![image](https://github.com/user-attachments/assets/80704dee-c25b-4f61-8b80-0f9409b41af3)
+
+8. 
+
+ 
+
+
+
