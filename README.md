@@ -22,5 +22,14 @@ docker run -d --rm -p 27019:27017 --name mongo3 --network mongoCluster mongo:lat
 docker exec -it mongo1 mongosh --eval "rs.initiate({ _id: 'myReplicaSet', members: [{_id: 0, host: 'mongo1', priority: 3}, {_id: 1, host: 'mongo2', priority: 2}, {_id: 2, host: 'mongo3', priority: 1}]})"
 ```
 
-4.Run Studio 3T for MongoDB and connect to localhost:27017
+4. Run Studio 3T for MongoDB and connect to localhost:27017
 
+5. Run these commands to verify the installation
+
+```
+docker exec -it mongo1 mongosh --eval 'rs.status()'
+```
+
+```
+docker exec -it mongo1 mongosh --eval 'rs.printReplicationInfo()'
+```
