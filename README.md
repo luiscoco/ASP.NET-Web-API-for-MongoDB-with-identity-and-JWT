@@ -10,7 +10,7 @@
 docker network create mongoCluster
 ```
 
-5. Create new MongoDb replica: 
+3. Create new MongoDb replica: 
 
 ```
 docker run -d --rm -p 27017:27017 --name mongo1 --network mongoCluster mongo:latest mongod --replSet myReplicaSet --bind_ip localhost,mongo1
