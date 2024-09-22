@@ -42,7 +42,15 @@ docker exec -it mongo1 mongosh --eval 'rs.printReplicationInfo()'
 
 ![image](https://github.com/user-attachments/assets/80704dee-c25b-4f61-8b80-0f9409b41af3)
 
-8. 
+8. Verify the connection pressing on the Test Connection button
+
+![image](https://github.com/user-attachments/assets/6e412c5e-e0a8-4bd2-9c3d-0905002ad410)
+
+![image](https://github.com/user-attachments/assets/62e5f6e5-ac80-40bd-958a-455640e7b7cc)
+
+9. 
+
+
 
  
 
